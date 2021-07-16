@@ -111,3 +111,14 @@ h4 {
   font-size: 18px;
   margin: 25px 0;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .logo {
+    width: 200px;
+  }
+  .header-content {
+    padding: 20px;
+    text-align: center;
+  }
+}
