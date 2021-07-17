@@ -262,6 +262,29 @@ h4 {
   background: url('../img/cover-4.jpg') no-repeat center center / cover;
 }
 
+.live {
+  background-color: #151516;
+  padding: 30px;
+}
+
+.live a {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.live-border {
+  border: 4px solid #1ce783;
+  border-radius: 10px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 /* Media Queries */
 @media (max-width: 1110px) {
   .categories .covers {
@@ -337,5 +360,22 @@ h4 {
 
   .cover-text h3 {
     font-size: 16px;
+  }
+
+  .live {
+    padding: 20px;
+  }
+
+  .live-border {
+    padding: 20px;
+  }
+
+  .live-border .sub-text {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .live-border a {
+    font-size: 14px;
   }
 }
