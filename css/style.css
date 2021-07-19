@@ -76,6 +76,11 @@ h4 {
   color: white;
 }
 
+.cta-btn {
+  background-color: #fff;
+  color: rgb(90, 90, 90);
+}
+
 .disclaimer {
   font-size: 10px;
   color: grey;
